@@ -1,62 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#2b3038" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="rotate(-20 32 32)">
-    <g stroke-width="1.1">
-      <path d="M32.0 24.0 Q23.1 20.9 14.2 21.5"/>
-      <path stroke-width="0.8" d="M14.2 21.5 l-1.8 -1.3"/>
-      <path stroke-width="0.8" d="M14.2 21.5 l-2.1 0.8"/>
-      <path d="M32.0 24.0 Q22.6 19.1 13.2 17.3"/>
-      <path stroke-width="0.8" d="M13.2 17.3 l-1.5 -1.6"/>
-      <path stroke-width="0.8" d="M13.2 17.3 l-2.2 0.3"/>
-      <path d="M32.0 24.0 Q23.5 17.5 14.9 13.6"/>
-      <path stroke-width="0.8" d="M14.9 13.6 l-1.1 -1.9"/>
-      <path stroke-width="0.8" d="M14.9 13.6 l-2.2 -0.1"/>
-      <path d="M32.0 24.0 Q24.7 16.1 17.4 10.3"/>
-      <path stroke-width="0.8" d="M17.4 10.3 l-0.7 -2.1"/>
-      <path stroke-width="0.8" d="M17.4 10.3 l-2.1 -0.6"/>
-      <path d="M32.0 24.0 Q26.2 15.0 20.5 7.6"/>
-      <path stroke-width="0.8" d="M20.5 7.6 l-0.2 -2.2"/>
-      <path stroke-width="0.8" d="M20.5 7.6 l-2.0 -1.0"/>
-      <path d="M32.0 24.0 Q28.0 14.1 24.0 5.6"/>
-      <path stroke-width="0.8" d="M24.0 5.6 l0.2 -2.2"/>
-      <path stroke-width="0.8" d="M24.0 5.6 l-1.7 -1.4"/>
-      <path d="M32.0 24.0 Q30.0 13.6 27.9 4.4"/>
-      <path stroke-width="0.8" d="M27.9 4.4 l0.6 -2.1"/>
-      <path stroke-width="0.8" d="M27.9 4.4 l-1.4 -1.7"/>
-      <path d="M32.0 24.0 Q32.0 13.4 32.0 4.0"/>
-      <path stroke-width="0.8" d="M32.0 4.0 l1.1 -1.9"/>
-      <path stroke-width="0.8" d="M32.0 4.0 l-1.1 -1.9"/>
-      <path d="M32.0 24.0 Q34.0 13.6 36.1 4.4"/>
-      <path stroke-width="0.8" d="M36.1 4.4 l1.4 -1.7"/>
-      <path stroke-width="0.8" d="M36.1 4.4 l-0.6 -2.1"/>
-      <path d="M32.0 24.0 Q36.0 14.1 40.0 5.6"/>
-      <path stroke-width="0.8" d="M40.0 5.6 l1.7 -1.4"/>
-      <path stroke-width="0.8" d="M40.0 5.6 l-0.2 -2.2"/>
-      <path d="M32.0 24.0 Q37.8 15.0 43.5 7.6"/>
-      <path stroke-width="0.8" d="M43.5 7.6 l2.0 -1.0"/>
-      <path stroke-width="0.8" d="M43.5 7.6 l0.2 -2.2"/>
-      <path d="M32.0 24.0 Q39.3 16.1 46.6 10.3"/>
-      <path stroke-width="0.8" d="M46.6 10.3 l2.1 -0.6"/>
-      <path stroke-width="0.8" d="M46.6 10.3 l0.7 -2.1"/>
-      <path d="M32.0 24.0 Q40.5 17.5 49.1 13.6"/>
-      <path stroke-width="0.8" d="M49.1 13.6 l2.2 -0.1"/>
-      <path stroke-width="0.8" d="M49.1 13.6 l1.1 -1.9"/>
-      <path d="M32.0 24.0 Q41.4 19.1 50.8 17.3"/>
-      <path stroke-width="0.8" d="M50.8 17.3 l2.2 0.3"/>
-      <path stroke-width="0.8" d="M50.8 17.3 l1.5 -1.6"/>
-      <path d="M32.0 24.0 Q40.9 20.9 49.8 21.5"/>
-      <path stroke-width="0.8" d="M49.8 21.5 l2.1 0.8"/>
-      <path stroke-width="0.8" d="M49.8 21.5 l1.8 -1.3"/>
-    </g>
-    <g stroke-width="0.7" opacity="0.5">
-      <path d="M32.4 23.7 Q24.4 20.5 15.6 19.4"/>
-      <path d="M32.4 23.7 Q27.2 16.2 21.3 10.8"/>
-      <path d="M32.4 23.7 Q32.0 14.3 30.8 7.0"/>
-      <path d="M32.4 23.7 Q37.0 15.5 40.8 9.5"/>
-      <path d="M32.4 23.7 Q40.4 19.4 47.6 17.2"/>
-    </g>
-    <path stroke-width="1.4" d="M32 24 C31.5 33 32.5 42 32 50"/>
-    <path stroke-width="0.7" opacity="0.5" d="M32.6 25 C32.2 34 33 42 32.5 49"/>
-    <path stroke-width="1.4" d="M32 50 C30 52.2 30.3 56.4 32 60 C33.7 56.4 34 52.2 32 50 Z"/>
-    <path stroke-width="0.8" d="M31.2 53.4 L32.8 52.8 M31.2 55.9 L32.7 55.3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#6b7280" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(-18 32 32)">
+      <path stroke-width="0.42" d="M31.10 26.95 Q22.54 24.72 13.51 25.98"/>
+      <path stroke-width="0.25" opacity="0.8" d="M17.17 25.61 l-2.38 -1.04"/>
+      <path stroke-width="0.25" opacity="0.8" d="M13.51 25.98 l-1.94 -0.91"/>
+      <path stroke-width="0.25" opacity="0.8" d="M13.51 25.98 l-2.24 -0.14"/>
+      <path stroke-width="0.25" opacity="0.8" d="M13.51 25.98 l-2.06 0.64"/>
+      <path stroke-width="0.42" d="M31.11 26.86 Q22.98 24.18 14.25 24.13"/>
+      <path stroke-width="0.25" opacity="0.8" d="M19.95 24.45 l-2.22 -1.35"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.00 24.45 l-2.52 0.66"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.25 24.13 l-1.87 -1.42"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.25 24.13 l-2.17 -0.31"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.25 24.13 l-1.87 0.66"/>
+      <path stroke-width="0.42" d="M31.13 26.77 Q21.92 22.63 12.53 21.90"/>
+      <path stroke-width="0.25" opacity="0.8" d="M18.00 22.62 l-2.02 -1.63"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.53 21.90 l-1.72 -1.59"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.53 21.90 l-2.46 -0.52"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.53 21.90 l-2.20 0.29"/>
+      <path stroke-width="0.42" d="M31.16 26.67 Q22.49 21.84 12.87 19.43"/>
+      <path stroke-width="0.25" opacity="0.8" d="M16.43 20.41 l-2.60 -0.03"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.54 19.86 l-1.91 -1.76"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.87 19.43 l-1.44 -1.42"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.87 19.43 l-2.07 -0.80"/>
+      <path stroke-width="0.25" opacity="0.8" d="M12.87 19.43 l-2.68 -0.01"/>
+      <path stroke-width="0.42" d="M31.21 26.56 Q22.98 20.88 14.24 17.13"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.56 20.13 l-1.54 -2.09"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.24 17.13 l-1.78 -1.99"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.24 17.13 l-2.26 -1.10"/>
+      <path stroke-width="0.25" opacity="0.8" d="M14.24 17.13 l-1.86 -0.23"/>
+      <path stroke-width="0.42" d="M31.28 26.46 Q24.25 19.87 16.09 15.22"/>
+      <path stroke-width="0.25" opacity="0.8" d="M21.73 18.76 l-1.39 -2.20"/>
+      <path stroke-width="0.25" opacity="0.8" d="M16.09 15.22 l-1.37 -2.02"/>
+      <path stroke-width="0.25" opacity="0.8" d="M16.09 15.22 l-2.09 -1.61"/>
+      <path stroke-width="0.25" opacity="0.8" d="M16.09 15.22 l-1.81 -0.40"/>
+      <path stroke-width="0.42" d="M31.34 26.39 Q24.70 19.60 17.06 13.25"/>
+      <path stroke-width="0.25" opacity="0.8" d="M22.12 17.60 l-2.38 -1.05"/>
+      <path stroke-width="0.25" opacity="0.8" d="M17.06 13.25 l-1.24 -1.74"/>
+      <path stroke-width="0.25" opacity="0.8" d="M17.06 13.25 l-1.92 -1.83"/>
+      <path stroke-width="0.25" opacity="0.8" d="M17.06 13.25 l-1.89 -1.06"/>
+      <path stroke-width="0.42" d="M31.42 26.31 Q25.23 18.13 18.26 10.81"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.34 13.02 l-0.98 -2.41"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.92 13.66 l-2.29 -1.23"/>
+      <path stroke-width="0.25" opacity="0.8" d="M18.26 10.81 l-0.74 -1.79"/>
+      <path stroke-width="0.25" opacity="0.8" d="M18.26 10.81 l-1.59 -1.79"/>
+      <path stroke-width="0.25" opacity="0.8" d="M18.26 10.81 l-1.84 -1.05"/>
+      <path stroke-width="0.42" d="M31.51 26.25 Q26.40 17.53 20.03 8.66"/>
+      <path stroke-width="0.25" opacity="0.8" d="M21.17 10.26 l-0.65 -2.52"/>
+      <path stroke-width="0.25" opacity="0.8" d="M24.27 14.75 l-2.22 -1.35"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.03 8.66 l-0.62 -2.50"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.03 8.66 l-1.47 -2.15"/>
+      <path stroke-width="0.25" opacity="0.8" d="M20.03 8.66 l-1.55 -1.72"/>
+      <path stroke-width="0.42" d="M31.58 26.21 Q26.95 16.91 21.87 7.91"/>
+      <path stroke-width="0.25" opacity="0.8" d="M23.12 10.14 l-0.21 -2.59"/>
+      <path stroke-width="0.25" opacity="0.8" d="M23.36 10.57 l-1.96 -1.70"/>
+      <path stroke-width="0.25" opacity="0.8" d="M21.87 7.91 l-0.26 -2.05"/>
+      <path stroke-width="0.25" opacity="0.8" d="M21.87 7.91 l-1.27 -2.23"/>
+      <path stroke-width="0.25" opacity="0.8" d="M21.87 7.91 l-1.43 -1.40"/>
+      <path stroke-width="0.42" d="M31.69 26.16 Q28.20 16.91 24.87 7.83"/>
+      <path stroke-width="0.25" opacity="0.8" d="M26.67 12.72 l-1.70 -1.97"/>
+      <path stroke-width="0.25" opacity="0.8" d="M24.87 7.83 l0.10 -2.37"/>
+      <path stroke-width="0.25" opacity="0.8" d="M24.87 7.83 l-0.64 -1.74"/>
+      <path stroke-width="0.25" opacity="0.8" d="M24.87 7.83 l-1.26 -1.57"/>
+      <path stroke-width="0.42" d="M31.81 26.12 Q30.19 16.43 27.67 6.89"/>
+      <path stroke-width="0.25" opacity="0.8" d="M28.30 9.31 l-1.50 -2.12"/>
+      <path stroke-width="0.25" opacity="0.8" d="M27.67 6.89 l0.40 -2.23"/>
+      <path stroke-width="0.25" opacity="0.8" d="M27.67 6.89 l-0.55 -2.35"/>
+      <path stroke-width="0.25" opacity="0.8" d="M27.67 6.89 l-0.99 -1.69"/>
+      <path stroke-width="0.42" d="M31.91 26.10 Q31.21 16.34 30.05 6.48"/>
+      <path stroke-width="0.25" opacity="0.8" d="M30.66 11.91 l0.77 -2.48"/>
+      <path stroke-width="0.25" opacity="0.8" d="M30.05 6.48 l0.82 -2.22"/>
+      <path stroke-width="0.25" opacity="0.8" d="M30.05 6.48 l-0.20 -2.27"/>
+      <path stroke-width="0.25" opacity="0.8" d="M30.05 6.48 l-0.85 -2.36"/>
+      <path stroke-width="0.42" d="M32.01 26.10 Q32.29 15.84 32.26 5.07"/>
+      <path stroke-width="0.25" opacity="0.8" d="M32.24 12.69 l-1.04 -2.38"/>
+      <path stroke-width="0.25" opacity="0.8" d="M32.25 11.01 l1.03 -2.39"/>
+      <path stroke-width="0.25" opacity="0.8" d="M32.26 5.07 l0.83 -1.87"/>
+      <path stroke-width="0.25" opacity="0.8" d="M32.26 5.07 l0.02 -1.89"/>
+      <path stroke-width="0.25" opacity="0.8" d="M32.26 5.07 l-0.96 -2.35"/>
+      <path stroke-width="0.42" d="M32.11 26.11 Q33.60 16.23 34.59 6.44"/>
+      <path stroke-width="0.25" opacity="0.8" d="M33.96 12.24 l-0.66 -2.52"/>
+      <path stroke-width="0.25" opacity="0.8" d="M34.10 10.98 l1.20 -2.31"/>
+      <path stroke-width="0.25" opacity="0.8" d="M34.59 6.44 l1.18 -2.10"/>
+      <path stroke-width="0.25" opacity="0.8" d="M34.59 6.44 l0.25 -1.82"/>
+      <path stroke-width="0.25" opacity="0.8" d="M34.59 6.44 l-0.57 -2.52"/>
+      <path stroke-width="0.42" d="M32.20 26.12 Q34.24 16.39 36.85 6.25"/>
+      <path stroke-width="0.25" opacity="0.8" d="M35.26 12.61 l-0.51 -2.55"/>
+      <path stroke-width="0.25" opacity="0.8" d="M35.70 10.82 l1.39 -2.19"/>
+      <path stroke-width="0.25" opacity="0.8" d="M36.85 6.25 l1.59 -1.61"/>
+      <path stroke-width="0.25" opacity="0.8" d="M36.85 6.25 l0.43 -1.86"/>
+      <path stroke-width="0.25" opacity="0.8" d="M36.85 6.25 l-0.26 -2.17"/>
+      <path stroke-width="0.42" d="M32.31 26.16 Q35.92 16.92 39.35 7.28"/>
+      <path stroke-width="0.25" opacity="0.8" d="M37.58 12.21 l0.01 -2.60"/>
+      <path stroke-width="0.25" opacity="0.8" d="M36.79 14.36 l1.69 -1.98"/>
+      <path stroke-width="0.25" opacity="0.8" d="M39.35 7.28 l1.79 -1.44"/>
+      <path stroke-width="0.25" opacity="0.8" d="M39.35 7.28 l0.79 -1.80"/>
+      <path stroke-width="0.25" opacity="0.8" d="M39.35 7.28 l-0.01 -2.74"/>
+      <path stroke-width="0.42" d="M32.41 26.20 Q36.77 17.09 41.50 8.40"/>
+      <path stroke-width="0.25" opacity="0.8" d="M40.64 10.00 l0.42 -2.57"/>
+      <path stroke-width="0.25" opacity="0.8" d="M39.93 11.32 l1.83 -1.85"/>
+      <path stroke-width="0.25" opacity="0.8" d="M41.50 8.40 l1.53 -1.56"/>
+      <path stroke-width="0.25" opacity="0.8" d="M41.50 8.40 l0.85 -2.49"/>
+      <path stroke-width="0.25" opacity="0.8" d="M41.50 8.40 l0.19 -2.32"/>
+      <path stroke-width="0.42" d="M32.48 26.24 Q38.14 17.28 43.77 8.59"/>
+      <path stroke-width="0.25" opacity="0.8" d="M41.26 12.48 l0.31 -2.58"/>
+      <path stroke-width="0.25" opacity="0.8" d="M42.75 10.17 l2.20 -1.38"/>
+      <path stroke-width="0.25" opacity="0.8" d="M43.77 8.59 l1.74 -1.06"/>
+      <path stroke-width="0.25" opacity="0.8" d="M43.77 8.59 l1.30 -2.08"/>
+      <path stroke-width="0.25" opacity="0.8" d="M43.77 8.59 l0.60 -2.68"/>
+      <path stroke-width="0.42" d="M32.58 26.31 Q38.73 18.21 45.50 11.04"/>
+      <path stroke-width="0.25" opacity="0.8" d="M41.07 15.91 l2.26 -1.29"/>
+      <path stroke-width="0.25" opacity="0.8" d="M44.00 12.66 l0.87 -2.45"/>
+      <path stroke-width="0.25" opacity="0.8" d="M45.50 11.04 l2.12 -1.24"/>
+      <path stroke-width="0.25" opacity="0.8" d="M45.50 11.04 l1.51 -1.86"/>
+      <path stroke-width="0.25" opacity="0.8" d="M45.50 11.04 l0.64 -2.29"/>
+      <path stroke-width="0.42" d="M32.67 26.40 Q40.01 19.14 47.88 12.80"/>
+      <path stroke-width="0.25" opacity="0.8" d="M44.66 15.45 l2.48 -0.79"/>
+      <path stroke-width="0.25" opacity="0.8" d="M44.60 15.50 l1.29 -2.26"/>
+      <path stroke-width="0.25" opacity="0.8" d="M47.88 12.80 l1.95 -0.90"/>
+      <path stroke-width="0.25" opacity="0.8" d="M47.88 12.80 l1.39 -1.81"/>
+      <path stroke-width="0.25" opacity="0.8" d="M47.88 12.80 l0.93 -2.39"/>
+      <path stroke-width="0.42" d="M32.73 26.47 Q39.90 19.85 48.20 15.23"/>
+      <path stroke-width="0.25" opacity="0.8" d="M44.06 17.70 l1.44 -2.17"/>
+      <path stroke-width="0.25" opacity="0.8" d="M48.20 15.23 l2.33 -0.75"/>
+      <path stroke-width="0.25" opacity="0.8" d="M48.20 15.23 l1.57 -1.08"/>
+      <path stroke-width="0.25" opacity="0.8" d="M48.20 15.23 l0.98 -1.66"/>
+      <path stroke-width="0.42" d="M32.80 26.58 Q40.58 21.26 49.00 18.05"/>
+      <path stroke-width="0.25" opacity="0.8" d="M46.74 18.95 l2.57 -0.40"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.00 18.05 l1.79 -0.28"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.00 18.05 l1.85 -0.84"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.00 18.05 l1.31 -1.72"/>
+      <path stroke-width="0.42" d="M32.83 26.65 Q40.55 22.14 49.61 19.68"/>
+      <path stroke-width="0.25" opacity="0.8" d="M46.08 20.74 l1.88 -1.80"/>
+      <path stroke-width="0.25" opacity="0.8" d="M43.19 21.75 l2.60 -0.02"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.61 19.68 l2.66 -0.06"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.61 19.68 l2.28 -0.88"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.61 19.68 l1.60 -1.83"/>
+      <path stroke-width="0.42" d="M32.87 26.77 Q41.20 22.95 50.07 22.33"/>
+      <path stroke-width="0.25" opacity="0.8" d="M43.64 23.22 l1.99 -1.68"/>
+      <path stroke-width="0.25" opacity="0.8" d="M46.44 22.72 l2.57 0.36"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.07 22.33 l2.54 0.25"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.07 22.33 l1.84 -0.53"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.07 22.33 l1.77 -1.23"/>
+      <path stroke-width="0.42" d="M32.89 26.88 Q41.51 24.22 51.58 24.46"/>
+      <path stroke-width="0.25" opacity="0.8" d="M49.19 24.45 l2.54 0.54"/>
+      <path stroke-width="0.25" opacity="0.8" d="M51.58 24.46 l2.11 0.52"/>
+      <path stroke-width="0.25" opacity="0.8" d="M51.58 24.46 l1.82 -0.30"/>
+      <path stroke-width="0.25" opacity="0.8" d="M51.58 24.46 l1.81 -1.24"/>
+      <path stroke-width="0.42" d="M32.90 26.98 Q41.29 25.07 50.32 26.50"/>
+      <path stroke-width="0.25" opacity="0.8" d="M45.64 25.98 l2.48 0.77"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.32 26.50 l1.83 0.84"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.32 26.50 l2.41 -0.05"/>
+      <path stroke-width="0.25" opacity="0.8" d="M50.32 26.50 l1.86 -0.91"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.11 26.86 Q25.40 23.90 18.05 24.74"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.14 26.73 Q24.97 23.12 18.45 22.70"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.19 26.60 Q25.58 22.21 18.85 20.47"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.27 26.48 Q25.94 21.70 19.90 18.38"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.37 26.36 Q26.62 20.67 21.53 16.39"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.45 26.29 Q27.21 19.84 22.60 14.71"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.60 26.20 Q28.61 18.86 24.53 12.07"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.75 26.14 Q29.99 18.85 27.54 11.74"/>
+      <path stroke-width="0.30" opacity="0.50" d="M31.87 26.11 Q30.97 18.40 29.53 10.66"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.00 26.10 Q32.35 17.97 31.96 10.46"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.13 26.11 Q33.19 18.82 34.30 10.69"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.27 26.14 Q34.15 19.08 36.82 11.69"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.41 26.20 Q35.13 19.86 38.81 13.67"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.53 26.27 Q36.46 19.64 41.45 14.04"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.64 26.37 Q37.17 20.59 42.62 16.49"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.73 26.47 Q38.05 21.75 44.76 17.77"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.81 26.62 Q38.57 22.71 45.35 20.73"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.87 26.76 Q38.71 23.96 45.39 23.23"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.89 26.89 Q38.94 24.32 45.84 25.37"/>
+      <path stroke-width="0.30" opacity="0.50" d="M32.90 27.01 Q38.66 25.52 45.76 27.10"/>
+    <circle cx="32" cy="27" r="1.2" stroke-width="0.5"/>
+    <path stroke-width="0.7" d="M32 27.4 C31.7 32.5 32.3 37 32 41"/>
+    <path stroke-width="0.3" opacity="0.6" d="M32.5 29 C32.2 33 32.7 37 32.4 40.5"/>
+    <path stroke-width="0.7" d="M32 41 C30.5 42.8 30.7 46 32 48.6 C33.3 46 33.5 42.8 32 41 Z"/>
+    <path stroke-width="0.35" d="M31.3 43.5 L32.7 43 M31.3 45.4 L32.6 44.9 M31.6 47.1 L32.4 46.8"/>
   </g>
 </svg>
