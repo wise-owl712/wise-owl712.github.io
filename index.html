@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birch — Mobile Apps</title>
+<meta name="description" content="Birch is an independent mobile app developer building WiseStudy and Wingsuit: Canyon Race for Android.">
+<link rel="icon" href="assets/wisestudy.png">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --text: #15181e;
+    --muted: #5b6270;
+    --line: #e3e6eb;
+    --accent: #1f6feb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --surface: #171a21;
+      --text: #e8ebf0;
+      --muted: #9aa3b2;
+      --line: #262b35;
+      --accent: #5b9dff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+  header { border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+  .lang button {
+    background: none; border: 1px solid var(--line); color: var(--muted);
+    padding: 4px 10px; border-radius: 6px; font: inherit; font-size: 14px; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { color: var(--text); border-color: var(--text); }
+  .apps-title { font-size: clamp(28px, 5vw, 40px); line-height: 1.2; margin: 56px 0 24px; letter-spacing: -0.02em; }
+  .apps { display: flex; flex-direction: column; gap: 24px; }
+  .app {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+    padding: 32px; display: flex; align-items: flex-start; gap: 32px;
+  }
+  .app img { width: 144px; height: 144px; border-radius: 32px; flex: none; }
+  .app h3 { margin: 4px 0 4px; font-size: clamp(24px, 4vw, 30px); line-height: 1.25; letter-spacing: -0.01em; }
+  .app .cat { color: var(--muted); font-size: 15px; margin-bottom: 14px; }
+  .app p { margin: 0; font-size: 18px; line-height: 1.65; }
+  .company {
+    margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 13px; line-height: 1.6;
+  }
+  .company h2 { font-size: 13px; font-weight: 600; color: var(--text); margin: 0 0 6px; }
+  .company p { margin: 0 0 10px; }
+  .info { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 16px; }
+  .info dt { font-weight: 600; }
+  .info dd { margin: 0; word-break: break-word; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; padding: 20px 0 32px; }
+  @media (max-width: 600px) {
+    .apps-title { margin-top: 36px; }
+    .app { flex-direction: column; gap: 18px; padding: 22px; }
+    .app img { width: 112px; height: 112px; border-radius: 26px; }
+    .app p { font-size: 17px; }
+  }
+  [data-lang] { display: none; }
+  html[lang="en"] [data-lang="en"], html[lang="ko"] [data-lang="ko"] { display: revert; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><span data-lang="en">Birch</span><span data-lang="ko">자작나무</span></div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en">EN</button>
+      <button type="button" data-set="ko">한국어</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="apps-title"><span data-lang="en">Our apps</span><span data-lang="ko">앱 소개</span></h1>
+  <div class="apps">
+    <article class="app">
+      <img src="assets/wisestudy.png" alt="WiseStudy app icon">
+      <div>
+        <h3>WiseStudy</h3>
+        <div class="cat"><span data-lang="en">Education</span><span data-lang="ko">교육</span></div>
+        <p data-lang="en">An AI study companion. Upload your notes and documents, and WiseStudy turns them into flashcards and quizzes, schedules reviews with spaced repetition, and coaches you through a daily learning plan.</p>
+        <p data-lang="ko">AI 학습 도우미. 노트와 문서를 올리면 플래시카드와 퀴즈로 만들어 주고, 간격 반복으로 복습 일정을 잡아 매일의 학습 계획을 코치해 줍니다.</p>
+      </div>
+    </article>
+    <article class="app">
+      <img src="assets/wingsuit.png" alt="Wingsuit: Canyon Race app icon">
+      <div>
+        <h3 data-lang="en">Wingsuit: Canyon Race</h3>
+        <h3 data-lang="ko">윙슈트: 협곡 레이스</h3>
+        <div class="cat"><span data-lang="en">Game · Racing</span><span data-lang="ko">게임 · 레이싱</span></div>
+        <p data-lang="en">A realistic wingsuit racing game. Skim canyon walls at over 150 km/h, thread rings, race ghosts of other pilots and climb the weekly league rankings.</p>
+        <p data-lang="ko">사실적인 윙슈트 레이싱 게임. 시속 150 km가 넘는 속도로 협곡 벽을 스치듯 날며 링을 꿰고, 다른 플레이어의 고스트와 겨뤄 주간 리그 랭킹에 도전합니다.</p>
+      </div>
+    </article>
+  </div>
+
+  <section class="company">
+    <h2><span data-lang="en">About Birch</span><span data-lang="ko">회사 소개</span></h2>
+    <p data-lang="en">Birch is an independent developer based in South Korea, building and publishing Android apps on Google Play.</p>
+    <p data-lang="ko">자작나무(Birch)는 대한민국의 독립 앱 개발사로, Google Play에 Android 앱을 만들어 출시합니다.</p>
+    <dl class="info">
+      <dt><span data-lang="en">Legal name</span><span data-lang="ko">상호</span></dt>
+      <dd><span data-lang="en">Birch</span><span data-lang="ko">자작나무 (Birch)</span></dd>
+      <dt><span data-lang="en">Address</span><span data-lang="ko">주소</span></dt>
+      <dd><span data-lang="en">6, Nohyeong 14-gil, Jeju-si, Jeju-do 63098, Republic of Korea (KR)</span><span data-lang="ko">노형14길 6, 지비조아, 제주시 63098, 대한민국 (KR)</span></dd>
+      <dt><span data-lang="en">Contact</span><span data-lang="ko">연락처</span></dt>
+      <dd><a href="mailto:birch7123@gmail.com">birch7123@gmail.com</a></dd>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span data-lang="en">© 2026 Birch. All rights reserved.</span><span data-lang="ko">© 2026 자작나무(Birch). All rights reserved.</span></div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var saved = null;
+    try { saved = localStorage.getItem("lang"); } catch (e) {}
+    var initial = saved || ((navigator.language || "").toLowerCase().indexOf("ko") === 0 ? "ko" : "en");
+    function setLang(lang) {
+      root.lang = lang;
+      document.querySelectorAll(".lang button").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.dataset.set === lang));
+      });
+      try { localStorage.setItem("lang", lang); } catch (e) {}
+    }
+    document.querySelectorAll(".lang button").forEach(function (b) {
+      b.addEventListener("click", function () { setLang(b.dataset.set); });
+    });
+    setLang(initial);
+  })();
+</script>
+</body>
+</html>
