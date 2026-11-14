@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WingSuit Account Deletion · 윙슈트 계정 삭제</title>
+<meta name="description" content="How to delete your WingSuit (윙슈트) account and data.">
+<link rel="icon" href="../../assets/logo.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --text: #15181e;
+    --muted: #5b6270;
+    --line: #e3e6eb;
+    --accent: #1f6feb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --surface: #171a21;
+      --text: #e8ebf0;
+      --muted: #9aa3b2;
+      --line: #262b35;
+      --accent: #5b9dff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+  header { border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 12px; }
+  .brand { font-weight: 700; font-size: 17px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text); text-decoration: none; }
+  .lang button {
+    background: none; border: 1px solid var(--line); color: var(--muted);
+    padding: 4px 10px; border-radius: 6px; font: inherit; font-size: 14px; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { color: var(--text); border-color: var(--text); }
+  main { padding: 40px 0 24px; }
+  h1 { font-size: clamp(26px, 5vw, 34px); line-height: 1.25; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .effective { color: var(--muted); margin: 0 0 28px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; padding-top: 18px; border-top: 1px solid var(--line); }
+  h3 { font-size: 17px; margin: 22px 0 8px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  .table { overflow-x: auto; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  tr:last-child td { border-bottom: none; }
+  th { font-weight: 600; white-space: nowrap; }
+  a { color: var(--accent); word-break: break-word; }
+  .note { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 0 0 24px; }
+  footer { color: var(--muted); font-size: 13px; padding: 20px 0 32px; border-top: 1px solid var(--line); }
+  [data-lang] { display: none; }
+  html[lang="en"] [data-lang="en"], html[lang="ko"] [data-lang="ko"] { display: revert; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="../../"><span data-lang="en">Birch</span><span data-lang="ko">자작나무</span></a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en">EN</button>
+      <button type="button" data-set="ko">한국어</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<article data-lang="ko">
+<h1>윙슈트(WingSuit) 계정 삭제 안내</h1>
+<p class="effective">윙슈트 회원 계정과 서버에 있는 모든 정보를 지우는 방법이에요.</p>
+
+<h2>게임 안에서 바로 삭제하기</h2>
+<ol>
+  <li>게임의 메인 화면 오른쪽 위 <b>계정</b> 버튼(닉네임이 보이는 버튼)을 누릅니다.</li>
+  <li><b>계정 삭제</b>를 누르고, "정말 삭제"로 바뀌면 한 번 더 누릅니다.</li>
+  <li>바로 삭제되고 게스트로 돌아갑니다.</li>
+</ol>
+
+<h2>게임 없이 삭제 요청하기</h2>
+<p><a href="mailto:birch7123@gmail.com?subject=WingSuit%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">birch7123@gmail.com</a>으로 아래 내용을 보내 주세요. 7일 안에 삭제하고 회신합니다.</p>
+<ul>
+  <li>제목: WingSuit 계정 삭제 요청</li>
+  <li>로그인에 사용한 Google 또는 Apple 이메일 주소</li>
+  <li>게임 닉네임</li>
+</ul>
+
+<h2>삭제되는 정보</h2>
+<ul>
+  <li>로그인 계정(Google·Apple 계정 식별자, 이메일 주소, 프로필 이름)</li>
+  <li>닉네임과 국가 코드</li>
+  <li>모든 랭킹 기록과 비행 경로(대결용 기록)</li>
+  <li>보상 수령 기록</li>
+  <li>클라우드 저장(크레딧, 얻은 아이템, 별, 장비 단계, 업적 기록, 구매 기록)</li>
+  <li>보낸 건의와 받은 답변</li>
+</ul>
+<p>삭제한 정보는 되돌릴 수 없습니다. 서버의 백업 사본은 서비스 제공업체의 백업 주기에 따라 순차적으로 지워지며, 그 밖에 따로 보관하는 정보는 없습니다. 기기에 저장된 기록은 앱을 삭제하면 지워집니다. 광고를 볼 때 Google이 처리한 정보는 Google 계정이나 기기 설정에서 관리할 수 있습니다(<a href="../privacy/?lang=ko">개인정보처리방침</a> 9장).</p>
+</article>
+
+<article data-lang="en">
+<h1>WingSuit Account and Data Deletion</h1>
+<p class="effective">How to delete your WingSuit member account and everything stored for it on our servers.</p>
+
+<h2>Delete in the game</h2>
+<ol>
+  <li>On the main menu, tap the <b>account</b> button at the top right (it shows your nickname).</li>
+  <li>Tap <b>Delete Account</b>, then tap it again when it reads "Really Delete".</li>
+  <li>It is deleted at once and you are back to playing as a guest.</li>
+</ol>
+
+<h2>Request deletion without the game</h2>
+<p>Email <a href="mailto:birch7123@gmail.com?subject=WingSuit%20account%20deletion">birch7123@gmail.com</a> with the subject "WingSuit account deletion", the Google or Apple email you signed in with, and your nickname. It is deleted within 7 days and we reply when it is done.</p>
+
+<h2>What is deleted</h2>
+<ul>
+  <li>Your login (Google or Apple account identifier, email, profile name)</li>
+  <li>Nickname and country code</li>
+  <li>All leaderboard results and flight paths</li>
+  <li>Reward claim records</li>
+  <li>The cloud save (credits, items, stars, upgrades, achievement counters, purchase records)</li>
+  <li>Feedback you sent and our replies</li>
+</ul>
+<p>Deletion cannot be undone. Backup copies are removed on the provider's backup cycle; nothing else is kept. Records on your device go when you uninstall the app. Data Google processed when you watched ads is managed in your Google account or device settings (see Ads in the <a href="../privacy/?lang=en">privacy policy</a>).</p>
+</article>
+
+</main>
+<footer>
+  <div class="wrap"><span data-lang="en">© 2026 Birch. All rights reserved.</span><span data-lang="ko">© 2026 자작나무(Birch). All rights reserved.</span></div>
+</footer>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var asked = null, saved = null;
+    try { asked = new URLSearchParams(location.search).get("lang"); } catch (e) {}
+    try { saved = localStorage.getItem("lang"); } catch (e) {}
+    var initial = asked === "ko" || asked === "en" ? asked
+      : saved || ((navigator.language || "").toLowerCase().indexOf("ko") === 0 ? "ko" : "en");
+    function setLang(lang) {
+      root.lang = lang;
+      document.querySelectorAll(".lang button").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.dataset.set === lang));
+      });
+      try { localStorage.setItem("lang", lang); } catch (e) {}
+    }
+    document.querySelectorAll(".lang button").forEach(function (b) {
+      b.addEventListener("click", function () { setLang(b.dataset.set); });
+    });
+    setLang(initial);
+  })();
+</script>
+</body>
+</html>
